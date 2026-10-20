@@ -1,0 +1,33 @@
+CASA CRUCEIRA — WEB CON PÁGINAS SEPARADAS
+
+PARA REVISARLA
+Extrae todo el ZIP en una carpeta. Abre index.html en tu navegador.
+Conserva juntos los archivos HTML, styles.css, app.js y la carpeta assets.
+
+PÁGINAS
+index.html: Inicio (maqueta aprobada)
+casa.html: La casa, equipamiento y momentos
+finca.html: La finca exclusiva
+historia.html: Historia de la antigua bodega
+ribeiro.html: Rutas, vino, termas y ubicación
+galeria.html: 24 fotografías con filtros
+
+IDIOMAS
+Español e inglés. El selector conserva el idioma al navegar entre páginas.
+
+PARA GITHUB PAGES
+Sube el contenido de esta carpeta a la raíz del repositorio que decidas usar.
+Las rutas son relativas y admiten publicación en un subdirectorio.
+No se ha publicado ni conectado un dominio.
+
+ANTES DEL LANZAMIENTO
+Añadir enlace de Airbnb, contacto, datos legales y número de registro que correspondan.
+Completar fotos de salón y baño cuando estén disponibles.
+La etiqueta noindex,nofollow está activa en todas las páginas durante esta revisión.
+Retirarla cuando la web esté lista para su lanzamiento público.
+Revisar en navegador de móvil y ordenador.
+
+BOTÓN RESERVA AQUÍ
+Aparece en las seis páginas. En móvil queda fijo en la parte inferior.
+Mientras BOOKING_URL esté vacío, muestra el aviso de reservas próximamente.
+Para activarlo, sustituir en app.js: const BOOKING_URL = ''; por el enlace definitivo.
