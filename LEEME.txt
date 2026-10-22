@@ -1,59 +1,23 @@
-CASA CRUCEIRA — WEB CON PÁGINAS SEPARADAS
+CASA CRUCEIRA — WEB OPTIMIZADA PARA BUSCADORES
+Actualización: 22 de octubre de 2026
 
-PARA REVISARLA
-Extrae todo el ZIP en una carpeta. Abre index.html en tu navegador.
-Conserva juntos los archivos HTML, styles.css, app.js y la carpeta assets.
+Este ZIP sustituye al anterior e incluye todos los cambios de fotos,
+El entorno, Experiencias y la optimización SEO.
 
-PÁGINAS
-index.html: Inicio (maqueta aprobada)
-casa.html: La casa, equipamiento y momentos
-finca.html: La finca exclusiva
-historia.html: Historia de la antigua bodega
-ribeiro.html: Rutas, vino, termas y ubicación
-galeria.html: 24 fotografías con filtros
+PARA GITHUB
+Sube el contenido completo a la raíz de CASACRUCEIRA, incluidas las carpetas
+en/, assets/ y assets/responsive/, además de robots.txt, sitemap.xml y 404.html.
+Conserva el CNAME y cualquier archivo de verificación existente.
+No cambies nada en IONOS ni en los DNS para subir esta versión.
 
-IDIOMAS
-Español e inglés. El selector conserva el idioma al navegar entre páginas.
+Lee SEO-PUESTA-EN-MARCHA.txt para verificar la publicación y dar de alta
+el dominio en Google Search Console. Ese paso no se ha realizado por ti.
 
-PARA GITHUB PAGES
-Sube el contenido de esta carpeta a la raíz del repositorio que decidas usar.
-Las rutas son relativas y admiten publicación en un subdirectorio.
-No se ha publicado ni conectado un dominio.
+Hay 7 páginas en español y sus 7 versiones estáticas en inglés.
+El selector de idioma abre su URL propia; ya no depende de traducir con JavaScript.
+La página 404 es deliberadamente noindex. El resto permite indexación.
 
-ANTES DEL LANZAMIENTO
-Añadir enlace de Airbnb, contacto, datos legales y número de registro que correspondan.
-Completar fotos de salón y baño cuando estén disponibles.
-La etiqueta noindex,nofollow está activa en todas las páginas durante esta revisión.
-Retirarla cuando la web esté lista para su lanzamiento público.
-Revisar en navegador de móvil y ordenador.
+Las reservas siguen pendientes: BOOKING_URL está vacío en app.js.
+Los botones muestran el aviso correspondiente hasta añadir el enlace.
 
-BOTÓN RESERVA AQUÍ
-Aparece en las seis páginas. En móvil queda fijo en la parte inferior.
-Mientras BOOKING_URL esté vacío, muestra el aviso de reservas próximamente.
-Para activarlo, sustituir en app.js: const BOOKING_URL = ''; por el enlace definitivo.
-
-ACTUALIZACIÓN 21 OCTUBRE — FOTOS Y EXPERIENCIA
-Sustituye en el repositorio CASACRUCEIRA estos tres archivos:
-- casa.html
-- galeria.html
-- app.js
-La foto fire-night.webp ya está en assets; no necesitas volver a subir imágenes.
-Se sustituye la escena de cartas por el fire pit en La casa y se retira de la galería.
-La sala se presenta vacía y para lectura o teletrabajo. Galería: 23 fotos distintas.
-Conserva el archivo CNAME y los ajustes de dominio que tengas en GitHub.
-
-PORTADA ACTUALIZADA — TEXTO APROBADO
-Sustituye index.html, styles.css y app.js en CASACRUCEIRA.
-El texto de presentación está en la columna izquierda junto al desayuno.
-En móvil: titular, fotografía y presentación para facilitar la lectura.
-Se elimina el bloque de historia repetido debajo; se conserva la página de historia.
-Se mantienen los ajustes anteriores (sin escena de cartas, CTA y galería).
-No modifiques CNAME ni los registros del dominio. No hacen falta imágenes nuevas.
-
-PORTADA VINOS — ACTUALIZACIÓN AGRUPADA
-Sube estos ocho archivos a la raíz de CASACRUCEIRA:
-index.html, casa.html, finca.html, historia.html, ribeiro.html, galeria.html, styles.css, app.js.
-Así se incluyen tanto la nueva portada como la retirada de las cartas de La casa y Galería.
-La imagen outdoor-wine.webp ya existe en assets. No hacen falta imágenes nuevas.
-Conserva el CNAME actual. No cambies Pages ni DNS.
-Después del despliegue, recarga con Ctrl+F5.
+La preparación del ZIP no publica los cambios en GitHub.

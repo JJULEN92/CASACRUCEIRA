@@ -1,0 +1,103 @@
+CASA CRUCEIRA — SEO Y PUESTA EN MARCHA
+Actualización: 22 de octubre de 2026
+
+OBJETIVO
+Facilitar que los buscadores descubran y entiendan Casa Cruceira, situada en Lapela,
+A Arnoia, O Ribeiro (Ourense, Galicia), cerca de Ribadavia. No se han utilizado
+datos de volumen de búsquedas ni se garantizan posiciones o fechas de aparición.
+
+IMPLEMENTADO
+- Se retira noindex de las 14 páginas de contenido: 7 en español y 7 en inglés.
+- Títulos y descripciones únicos por página; encabezado principal único.
+- Se conserva el titular de marca y la portada de los vinos.
+- Se aclara la ubicación y la capacidad en un bloque visible de la portada.
+- Enlaces internos descriptivos entre alojamiento, entorno y experiencias.
+- Canonical por página usando https://www.casacruceira.es/.
+- Inglés estático en /en/: el contenido se puede leer sin ejecutar JavaScript.
+- hreflang recíproco es/en y versión de reserva x-default en español.
+- robots.txt permite el rastreo e indica el mapa del sitio.
+- sitemap.xml incluye las 14 URLs canónicas y sus variantes de idioma.
+- Schema.org: WebSite, WebPage, LodgingBusiness/Accommodation y BreadcrumbList.
+  Solo datos conocidos. Sin estrellas, valoraciones, precios, coordenadas, teléfono
+  o dirección exacta inventados. No equivale a entrar en Google Vacation Rentals.
+- Open Graph y tarjetas sociales para compartir las páginas.
+- Dimensiones reales y textos alternativos descriptivos para las fotos.
+- 66 variantes WebP de 640 y 960 píxeles: el navegador puede descargar la adecuada.
+- Carga diferida de fotos secundarias y prioridad a la imagen principal.
+- Página 404 propia, excluida del sitemap y marcada noindex.
+- Se conservan reservas, galería, fotos elegidas y restricciones de uso del fuego.
+
+PUBLICAR EN GITHUB
+1. Descomprime el ZIP.
+2. Sube todos los archivos y carpetas a la raíz del repositorio CASACRUCEIRA.
+   Incluye en/, assets/responsive/, robots.txt, sitemap.xml y 404.html.
+   No subas el ZIP como un único archivo ni metas todo dentro de otra carpeta.
+3. Conserva el archivo CNAME y cualquier archivo de verificación que ya tengas.
+4. No cambies DNS, IONOS, dominio ni configuración de Pages para esta actualización.
+5. Espera a que GitHub Pages termine el despliegue y recarga la web.
+6. Verifica estas direcciones:
+   https://www.casacruceira.es/
+   https://www.casacruceira.es/en/
+   https://www.casacruceira.es/robots.txt
+   https://www.casacruceira.es/sitemap.xml
+7. Al ver el código fuente de Inicio no debe aparecer noindex.
+   Sí es correcto que aparezca en 404.html.
+
+GOOGLE SEARCH CONSOLE — SIGUIENTE PASO NECESARIO
+1. Accede con tu cuenta a https://search.google.com/search-console/.
+2. Añade una propiedad de tipo Dominio: casacruceira.es (sin www ni https).
+3. Google mostrará un registro TXT de verificación. Añade exactamente ese valor
+   en IONOS, sin borrar los registros que conectan la web con GitHub.
+   No se ha incluido ningún token ficticio ni se ha modificado tu DNS.
+4. Cuando esté verificada, abre Sitemaps y envía:
+   https://www.casacruceira.es/sitemap.xml
+5. En Inspección de URLs prueba la portada, casa.html, ribeiro.html y
+   experiencias.html. Usa la prueba en directo y solicita indexación cuando
+   sean accesibles y estén listas. No repitas solicitudes cada día.
+6. Revisa Indexación de páginas y Rendimiento. La indexación y la aparición
+   no son instantáneas ni están garantizadas por enviar el sitemap.
+
+QUÉ MEDIR
+- Páginas indexadas y causas de exclusión.
+- Impresiones, clics y consultas por las que aparece la web.
+- Búsquedas de marca frente a búsquedas de alojamiento y destino.
+- CTR por consulta y página, comparando períodos cuando haya datos suficientes.
+- Experiencia en móvil y Core Web Vitals si Google dispone de datos.
+No se ha instalado analítica, píxeles ni cookies de seguimiento.
+
+SIGUIENTES MEJORAS DE CONTENIDO
+Ampliar con información propia y contrastada, no con páginas repetidas por pueblo:
+- Una guía práctica de termas cerca de A Arnoia con enlaces oficiales actualizados.
+- Un paseo real desde la casa con fotos propias, punto de inicio y dificultad.
+- Una escapada de fin de semana por Ribadavia y O Ribeiro con recomendaciones.
+Los horarios, precios, distancias y accesos deben verificarse antes de publicarlos.
+
+PENDIENTES QUE NO SE HAN INVENTADO
+- Enlace de reserva y vías de contacto definitivos.
+- Dirección postal completa y número de registro turístico completo, confirmado.
+- Datos legales y condiciones definitivas del titular.
+Revisar estos datos antes del lanzamiento comercial. La Ribeira no se promociona.
+
+SOBRE GOOGLE MAPS
+No se ha creado una ficha de Google Business Profile. Las viviendas vacacionales
+como propiedades de alquiler figuran entre los modelos no elegibles en sus
+directrices; hay que comprobar el modelo real antes de recomendar una ficha.
+El SEO de la web y Search Console son independientes de esa elegibilidad.
+
+VERIFICACIÓN REALIZADA
+Comprobación de 14 títulos/descripciones/canonicals únicos, sitemap XML,
+JSON-LD parseable, enlaces y anclas locales, fotos y variantes, recursos ES/EN,
+selector de idiomas y filtro de galería. JavaScript sin errores de sintaxis.
+Revisión local en navegador. No es una certificación externa de datos
+estructurados ni una puntuación de Lighthouse/Core Web Vitals.
+La respuesta pública del dominio no pudo verificarse desde este entorno.
+Se debe comprobar tras el despliegue y con Search Console.
+
+FUENTES OFICIALES
+https://developers.google.com/search/docs/fundamentals/seo-starter-guide
+https://developers.google.com/search/docs/crawling-indexing/block-indexing
+https://developers.google.com/search/docs/specialty/international/localized-versions
+https://developers.google.com/search/docs/appearance/structured-data/breadcrumb
+https://developers.google.com/search/docs/appearance/structured-data/vacation-rental
+https://support.google.com/webmasters/answer/9008080
+https://support.google.com/business/answer/13763036

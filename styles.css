@@ -14,7 +14,48 @@
 /* Shared booking action: header on desktop, persistent bottom action on mobile. */
 .reserve-cta{border:0;background:var(--wine);color:var(--cream);font-family:Arial,sans-serif;font-size:12px;font-weight:600;letter-spacing:.07em;padding:14px 18px;white-space:nowrap;transition:background .2s}.reserve-cta:hover{background:#64203b}.reserve-header{flex-shrink:0}.reserve-mobile{display:none}.reserve-close{position:absolute;right:14px;top:10px;border:0;background:none;padding:8px}#reserve-dialog{width:min(520px,90vw);padding:55px 32px 30px}#reserve-dialog h2{font-size:36px}#reserve-dialog p:not(.eyebrow){font-size:19px}#reserve-dialog .button{border:0;font-family:Georgia,serif}header{gap:18px}nav{gap:18px}@media(min-width:721px) and (max-width:1200px){nav{gap:10px;font-size:14px}header{padding-left:2%;padding-right:2%;gap:12px}.brand{width:145px}.reserve-header{padding:12px;font-size:11px}}@media(max-width:950px) and (min-width:721px){.brand{width:130px}.logo-window{transform:scale(.67)}nav{gap:8px;font-size:13px}.languages{gap:4px}.reserve-header{padding:11px 9px;font-size:10px}header{gap:8px}}@media(max-width:720px){.reserve-header{display:none}.reserve-mobile{display:block;position:fixed;bottom:0;left:0;right:0;width:100%;z-index:15;padding:18px 16px calc(18px + env(safe-area-inset-bottom));font-size:14px;box-shadow:0 -3px 16px #0002}body{padding-bottom:calc(58px + env(safe-area-inset-bottom))}#reserve-dialog{padding:52px 24px 26px}.languages{margin-left:auto}header{gap:10px}}
 
-/* The approved house story lives beside the breakfast image. */
+/* The approved house story lives beside the wine image. */
 .hero.hero-story{grid-template-columns:46% 54%;min-height:0;align-items:stretch}.hero-story .hero-copy{padding:46px clamp(28px,4vw,76px);overflow:visible}.hero-story h1{font-size:clamp(38px,3.2vw,58px);max-width:760px;line-height:1.08;text-wrap:balance}.hero-story .eyebrow{margin-bottom:24px}.hero-story .rule{margin-top:24px}.hero-story .hero-body p{font-size:clamp(17px,1.13vw,20px);line-height:1.5;margin-top:20px;max-width:800px}.hero-story .hero-body .hero-invitation{font-style:italic;margin-top:26px}.hero-visual{position:relative;min-width:0}.hero-story .hero-image{position:absolute;inset:0;width:100%;height:100%;min-height:0;object-fit:cover;object-position:48% center}.hero-actions{display:flex;flex-wrap:wrap;gap:18px 25px;align-items:center;margin-top:26px}.hero-actions .reserve-cta{padding:16px 24px;font-size:12px}.hero-actions .text-link{margin:0;font-size:16px}.hero-story .hero-copy p.eyebrow{font-size:11px;line-height:1.6}
 @media(min-width:721px) and (max-width:1050px){.hero.hero-story{grid-template-columns:52% 48%}.hero-story .hero-copy{padding:35px 30px}.hero-story h1{font-size:40px}.hero-story .hero-body p{font-size:17px;line-height:1.45;margin-top:17px}}
 @media(max-width:720px){.hero.hero-story{display:flex;flex-direction:column;min-height:0}.hero-story .hero-copy{display:contents}.hero-story .hero-heading{order:1;padding:32px 7% 25px}.hero-story h1{font-size:38px;text-wrap:balance}.hero-story .hero-heading .rule{margin-top:20px}.hero-visual{order:2;height:280px;min-height:280px}.hero-story .hero-image{object-position:center 58%;min-height:0;height:100%;width:100%}.hero-story .hero-body{order:3;padding:8px 7% 34px}.hero-story .hero-body p{font-size:17px;line-height:1.6;max-width:none;margin-top:21px}.hero-story .hero-body .hero-invitation{margin-top:25px;font-size:19px}.hero-actions{gap:18px;margin-top:24px}.hero-actions .text-link{font-size:15px}.hero-story .eyebrow{margin-bottom:18px}}
+.travel-faq .faq{max-width:850px;margin:auto}
+/* El entorno and Experiencias: separate pages, shared visual language. */
+.place-intro .section-heading,.experiences-intro .section-heading{max-width:900px;margin:0 auto 40px;text-align:center}
+.place-intro h1,.experiences-intro h1{font-size:clamp(38px,4.3vw,62px);max-width:none;line-height:1.08;text-wrap:balance}
+.place-cover{margin:0}.place-cover img{width:100%;height:clamp(280px,42vw,580px);object-fit:cover;object-position:center}
+.place-cover figcaption{font-style:italic;font-size:17px;margin-top:14px;color:var(--muted)}
+.place-stories{padding-top:0}.place-row{display:grid;grid-template-columns:1fr 1fr;gap:6%;align-items:center;padding:48px 0;border-top:1px solid var(--line)}
+.place-row figure{margin:0;min-width:0}.place-row img{width:100%;aspect-ratio:1.35;object-fit:cover}
+.place-row.reverse figure{order:2}.place-row h2,.place-text h2,.stay-home h2{font-size:clamp(31px,3vw,44px)}
+.place-row p:not(.eyebrow),.place-text p:not(.eyebrow),.stay-home p:not(.eyebrow){font-size:18px;line-height:1.7}
+.place-text{padding:50px clamp(20px,7vw,100px);margin:10px 0 45px;background:#eeeee3}
+.image-credit{font-family:Arial,sans-serif;font-size:11px!important;line-height:1.5!important;margin:10px 0 0;color:var(--muted)}
+.activity-note{max-width:900px;margin:0 auto 38px;border-left:2px solid var(--line);padding-left:18px;font-size:13px;line-height:1.65;color:var(--muted)}
+.activity-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:50px 34px}
+.activity-card{scroll-margin-top:130px;min-width:0;border-bottom:1px solid var(--line);padding-bottom:30px}
+.activity-card figure{margin:0}.activity-card img{width:100%;aspect-ratio:1.5;object-fit:cover}
+.activity-card#termas img{object-position:65% center}
+.activity-copy{padding-top:20px}.activity-copy h2{font-size:31px;line-height:1.15;margin-bottom:16px}
+.activity-copy p{font-size:17px;line-height:1.7}
+.stay-home{display:grid;grid-template-columns:1.1fr 1fr;gap:6%;align-items:center;background:#eeeee3}
+.stay-home figure{margin:0}.stay-home img{width:100%;aspect-ratio:1.2;object-fit:cover}
+.closing .button,.closing .reserve-cta{margin:16px 10px 0}.closing .button{border:1px solid #f9f6ed88;background:transparent;color:var(--cream)}
+@media(min-width:721px) and (max-width:1180px){
+ header .menu{display:block;border:1px solid var(--line);background:none;padding:8px 14px;font-size:14px;margin-left:auto;order:4}
+ header nav{display:none;position:absolute;top:100%;left:0;right:0;background:var(--cream);padding:25px 6%;box-shadow:0 12px 15px #173e3612;font-size:19px}
+ header nav.open{display:flex;flex-direction:column;align-items:flex-start;gap:18px}
+ header .brand{width:180px}header .languages{margin-left:0}header .reserve-header{margin-left:0}
+}
+@media(min-width:1181px){header{padding-left:3%;padding-right:3%;gap:15px}header nav{gap:16px;font-size:15px}.brand{width:165px}.logo-window{transform:scale(.86);transform-origin:left center}.reserve-header{padding:14px}}
+@media(max-width:720px){
+ .place-intro .section-heading,.experiences-intro .section-heading{text-align:left;margin-bottom:28px}
+ .place-intro h1,.experiences-intro h1{font-size:38px}.place-cover img{height:300px}
+ .place-row,.stay-home{grid-template-columns:1fr;gap:24px}.place-row{padding:32px 0}
+ .place-row.reverse figure{order:0}.place-row p:not(.eyebrow),.place-text p:not(.eyebrow),.stay-home p:not(.eyebrow){font-size:17px}
+ .place-text{padding:28px 22px;margin-bottom:28px}.activity-grid{grid-template-columns:1fr;gap:34px}
+ .activity-card{scroll-margin-top:95px}.activity-copy h2{font-size:29px}.activity-note{font-size:12px}
+ .image-credit{font-size:10px!important}.stay-home img{aspect-ratio:1.3}
+}
+
+/* Search-friendly headings retain the original editorial layout. */
+.section-heading h1{font-size:clamp(34px,3.5vw,52px);font-weight:400;line-height:1.08;letter-spacing:-.035em}.seo-local{border-top:1px solid var(--line);max-width:1250px;margin:auto}.seo-local h2{max-width:850px}.seo-local>p:not(.eyebrow){max-width:900px;font-size:18px;line-height:1.7}.seo-links{display:flex;flex-wrap:wrap;gap:16px 30px;margin-top:22px}.seo-links .text-link{font-size:16px}.languages a{font-size:12px;font-weight:600;padding:5px}.languages a[aria-pressed=true]{color:var(--wine)}@media(max-width:720px){.seo-links{flex-direction:column;gap:10px}.section-heading h1{font-size:36px}.seo-local>p:not(.eyebrow){font-size:17px}}
