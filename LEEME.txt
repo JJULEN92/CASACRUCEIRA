@@ -1,4 +1,12 @@
-CASA CRUCEIRA — WEB OPTIMIZADA PARA BUSCADORES
+LA CRUCEIRA — IDENTIDAD VISUAL APLICADA A LA WEB
+Actualización: 22 de octubre de 2026
+
+Lora 400/600 e Italic, Inter 500, colores exactos del manual, sin tracking,
+sin símbolos decorativos y con logotipo circular completo.
+Las fuentes se sirven desde assets/fonts: no requieren Google Fonts al visitar la web.
+
+LA CRUCEIRA — LOGOTIPO ACTUALIZADO Y WEB OPTIMIZADA PARA BUSCADORES
+Incluye el logotipo circular nuevo en todas las cabeceras y el icono de pestaña.
 Actualización: 22 de octubre de 2026
 
 Este ZIP sustituye al anterior e incluye todos los cambios de fotos,

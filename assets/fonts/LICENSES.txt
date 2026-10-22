@@ -1,0 +1,5 @@
+Lora and Inter: SIL Open Font License 1.1.
+Lora: https://github.com/cyrealtype/Lora-Cyrillic
+Inter: https://github.com/rsms/inter
+License: https://openfontlicense.org/open-font-license-official-text/
+Fonts sourced from Google Fonts.
