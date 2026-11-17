@@ -133,3 +133,10 @@ main p, main li, main dd, main figcaption {text-wrap:pretty; text-align:start; h
 h1,h2,h3,h4 {text-wrap:balance;word-break:normal;hyphens:manual;overflow-wrap:break-word}
 .moments-section .section-heading {max-width:min(100%, 68rem)}
 .moments-section .section-heading h1 {font-size:clamp(2rem,4.2vw,3.25rem)}
+
+/* Keep headings wide enough on desktop; wrap naturally on narrow screens. */
+#casa .section-heading {max-width:none}
+#casa .section-heading p:not(.eyebrow) {max-width:66ch}
+#casa .section-heading h2 {max-width:none;text-wrap:pretty}
+.moments-section+.section {padding-top:clamp(2.5rem,5vw,5rem)}
+@media(max-width:600px){#casa .section-heading h2{font-size:clamp(1.85rem,7vw,2.4rem)}}
