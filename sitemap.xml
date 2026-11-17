@@ -83,4 +83,6 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.casacruceira.es/en/galeria.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.casacruceira.es/galeria.html"/>
   </url>
+<url><loc>https://www.casacruceira.es/bodegas.html</loc><xhtml:link rel="alternate" hreflang="es" href="https://www.casacruceira.es/bodegas.html"/><xhtml:link rel="alternate" hreflang="en" href="https://www.casacruceira.es/en/bodegas.html"/><xhtml:link rel="alternate" hreflang="x-default" href="https://www.casacruceira.es/bodegas.html"/></url>
+<url><loc>https://www.casacruceira.es/en/bodegas.html</loc><xhtml:link rel="alternate" hreflang="es" href="https://www.casacruceira.es/bodegas.html"/><xhtml:link rel="alternate" hreflang="en" href="https://www.casacruceira.es/en/bodegas.html"/><xhtml:link rel="alternate" hreflang="x-default" href="https://www.casacruceira.es/bodegas.html"/></url>
 </urlset>
