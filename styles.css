@@ -155,3 +155,7 @@ main h1,main h2,main h3 {text-wrap:balance}
 .legal-copy{max-width:960px}.legal-copy h2{font-size:1.5rem;margin-top:1.6rem}
 @media(max-width:900px){.footer-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:480px){.footer-grid{grid-template-columns:1fr}}
+
+/* Keep the transparent circular mark free of rectangular edges. */
+header .brand,.logo-window{background:transparent}
+header .brand .logo-window img,.site-footer img{clip-path:circle(49.8% at 50% 50%);background:transparent}
