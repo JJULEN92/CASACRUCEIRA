@@ -16,10 +16,3 @@ if(requestedLanguage&&requestedLanguage!==language&&['es','en'].includes(request
 function syncPageLinks(){}
 syncPageLinks();
 
-// Set the confirmed booking URL here when the listing is ready.
-const BOOKING_URL = '';
-const bookingDialog=document.querySelector('#reserve-dialog');let bookingOpener;
-document.querySelectorAll('[data-reserve]').forEach(button=>button.addEventListener('click',()=>{if(BOOKING_URL){window.location.assign(BOOKING_URL);return}bookingOpener=button;bookingDialog.showModal()}));
-bookingDialog.querySelectorAll('.reserve-close,.reserve-dismiss').forEach(button=>button.addEventListener('click',()=>bookingDialog.close()));
-bookingDialog.addEventListener('close',()=>bookingOpener?.focus());
-bookingDialog.addEventListener('click',e=>{if(e.target===bookingDialog){const r=bookingDialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)bookingDialog.close()}});
